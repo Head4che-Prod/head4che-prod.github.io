@@ -8,7 +8,7 @@ class NotYetImplemented extends Component {
         <img id="logo" src="./assets/head4che_white.svg" alt="logo"></img>
         <h1>
           Cette page est en construction. Revenez bientôt pour découvrir les
-          avancements du projet !
+          avancées du projet !
         </h1>
       </div>
     );

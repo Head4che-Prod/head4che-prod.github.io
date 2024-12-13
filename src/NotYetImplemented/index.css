@@ -6,7 +6,7 @@ body {
 
 #logo {
     opacity: 75%;
-    width: 10vw;
+    width: 15em;
     display: inline-block;
 }
 
@@ -23,4 +23,5 @@ div {
     transform: translate(-50%, -50%);
     width: 80vw;
     align-items: center;
+    text-align: center;
 }
