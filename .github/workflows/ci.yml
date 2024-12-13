@@ -3,7 +3,7 @@ name: Build and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - react-src # Or the branch you want to trigger the deployment from, e.g., 'master'
+      - main # Or the branch you want to trigger the deployment from, e.g., 'master'
 
 jobs:
   build:
