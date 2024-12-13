@@ -1,0 +1,20 @@
+
+#logo {
+    height: 80vh;
+    display: inline-block;
+}
+
+#logo + h1 {
+    font-size: medium;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    align-items: center;
+}
