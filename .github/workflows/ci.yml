@@ -3,7 +3,7 @@ name: Build and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Or the branch you want to trigger the deployment from, e.g., 'master'
+      - main
 
 jobs:
   build:
@@ -23,6 +23,14 @@ jobs:
 
     - name: Build React app
       run: npm run build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v3
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
