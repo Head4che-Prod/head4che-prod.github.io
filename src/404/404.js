@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./index.css";
+import "./index.scss";
 
 class InexistantPage extends Component {
   render() {
     return (
-      <div>
+      <div class="err404">
         <h1>Erreur 404</h1>
         <img id="logo" src="./assets/exploding_camel.png" alt="Camel exploding logo"></img>
         <h1>

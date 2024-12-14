@@ -1,14 +1,14 @@
-
-#logo {
+.err404 {
+  #logo {
     height: 80vh;
     display: inline-block;
-}
+  }
 
-#logo + h1 {
+  #logo + h1 {
     font-size: medium;
-}
+  }
 
-div {
+  div {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -17,4 +17,5 @@ div {
     transform: translate(-50%, -50%);
     width: 80vw;
     align-items: center;
+  }
 }
