@@ -19,10 +19,10 @@ jobs:
         node-version: '18' # Specify the version of Node.js you're using
 
     - name: Install dependencies
-      run: npm install
+      run: yarn install # Use Yarn instead of npm
 
     - name: Build React app
-      run: npm run build
+      run: yarn build # Use Yarn instead of npm
 
   deploy:
     runs-on: ubuntu-latest
