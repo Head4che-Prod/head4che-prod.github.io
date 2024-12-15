@@ -9,8 +9,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="*" element={<InexistantPage />} /> 
         <Route path="/" element={<NotYetImplemented />} />
+        <Route path="*" element={<InexistantPage />} /> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
