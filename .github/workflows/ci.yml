@@ -16,13 +16,13 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18' # Specify the version of Node.js you're using
+        node-version: '18'
 
     - name: Install dependencies
-      run: yarn install --ignore-engines # Use Yarn instead of npm
+      run: yarn install --ignore-engines
 
     - name: Build React app
-      run: yarn build # Use Yarn instead of npm
+      run: yarn build
 
   deploy:
     runs-on: ubuntu-latest
@@ -36,4 +36,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+        publish_dir: build # Ensure this points to the correct folder
