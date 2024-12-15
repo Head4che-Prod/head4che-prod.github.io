@@ -1,3 +1,12 @@
+/* Neuropol X font */
+@font-face {
+  font-family: "Neuropol X";
+  src: url("/fonts/Neuropol_X_Rg.otf") format("opentype");
+  font-weight: 900; /* Black weight is typically 900 */
+  font-style: normal;
+}
+
+
 html:has(.notImplemented), body:has(.notImplemented) {
   margin: 0;
   padding: 0;
@@ -33,5 +42,6 @@ html:has(.notImplemented), body:has(.notImplemented) {
   #logo + h1 {
     font-size: medium;
     text-align: center;
+    font-family: 'Neuropol X';
   }
 }
