@@ -10,7 +10,6 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="*" element={<InexistantPage />} /> 
-
         <Route path="/" element={<NotYetImplemented />} />
       </Routes>
     </BrowserRouter>
