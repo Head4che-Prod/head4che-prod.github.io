@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./index.scss";
+import './fonts/Neuropol_X_Rg.otf';
 
 class NotYetImplemented extends Component {
   render() {
