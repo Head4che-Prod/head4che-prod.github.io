@@ -19,7 +19,7 @@ jobs:
         node-version: '18' # Specify the version of Node.js you're using
 
     - name: Install dependencies
-      run: yarn install # Use Yarn instead of npm
+      run: yarn install --ignore-engines # Use Yarn instead of npm
 
     - name: Build React app
       run: yarn build # Use Yarn instead of npm
