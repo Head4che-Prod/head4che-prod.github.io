@@ -10,7 +10,7 @@ class HomePage extends Component {
         <header>
           <nav>
             <div className="logo">
-              <img src="assets/subwayout.png" />
+              <img alt="logo-subwayout" src="assets/subwayout.png" />
             </div>
             <div className="header-links">
               {/* <a href="#news">News</a> */}
@@ -20,7 +20,7 @@ class HomePage extends Component {
         </header>
         <div className="download">
           <div>
-            <img src="./assets/subwayout.png" />
+            <img alt="logo-subwayout" src="./assets/subwayout.png" />
             <button disabled>
               <WinLogo height="2em" />
               <span>Download Now</span>
