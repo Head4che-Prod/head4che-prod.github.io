@@ -44,7 +44,7 @@ class HomePage extends Component {
                 <h2 className="name">Technical report n°2</h2>
               </div>
               <p className="date">March 2024</p>
-              <button disabled>&gt;</button>
+              <a target="_blank" href="/docs/defense-2.pdf"><button>&gt;</button></a>
             </div>
             <div className="document">
               <div className="row">
