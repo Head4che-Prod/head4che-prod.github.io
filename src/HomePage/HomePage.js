@@ -44,7 +44,7 @@ class HomePage extends Component {
           <h1>Traffic News</h1>
           <div className="row">
             <div className="news-display first">
-              <img src="./assets/news_image.jpg" />
+              <img src="./assets/news_image.jpg" alt="defense-group-pic"/>
               <p className="date">26.05.2025</p>
               <p className="event">Final Defense</p>
             </div>
@@ -55,7 +55,7 @@ class HomePage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="svg-icon"
-                ></a>
+                >_</a>
                 <a
                   href="https://www.instagram.com/head4che.prod.co"
                   target="_blank"
