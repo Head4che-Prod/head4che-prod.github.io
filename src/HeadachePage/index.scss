@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Neuropol X";
+  src: url(./assets/NeuropolX.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.headachePage {
+  color: white;
+  font-family: "Roboto Mono";
+
+  .main {
+    background-color: #2b2d31;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 5em;
+
+    .logo {
+      height: 80vh;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .content {
+      display: flex;
+      text-align: center;
+      gap: 1em;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+      h1 {
+        font-weight: 400;
+        font-size: larger;
+        font-family: "Neuropol X";
+      }
+
+      .games {
+        height: 10em;
+        gap: 1em;
+
+        img,
+        a {
+          height: 100%;
+        }
+      }
+
+      .links {
+        color: white;
+        text-decoration: none;
+
+        .link {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          justify-content: space-around;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  #team {
+    background-color: #1e1f22;
+    min-height: 100vh;
+  }
+}
+
+body:has(.headachePage) {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+* {
+  transition: 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}

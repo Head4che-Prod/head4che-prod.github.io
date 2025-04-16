@@ -10,7 +10,7 @@ class HomePage extends Component {
         <header>
           <nav>
             <div className="logo">
-              <img alt="logo-subwayout" src="assets/subwayout.png" />
+              <img alt="logo-subwayout" src="/assets/subwayout.png" />
             </div>
             <div className="header-links">
               <a href="#news">News</a>
@@ -23,7 +23,7 @@ class HomePage extends Component {
             <img
               className="logo-swo"
               alt="logo-subwayout"
-              src="./assets/subwayout.png"
+              src="/assets/subwayout.png"
             />
             <div className="alldownloads">
               <div className="mainDownload">
@@ -34,7 +34,7 @@ class HomePage extends Component {
               </div>
               <div className="instructionManual">
                 {/* <a target="_blank" href="/docs/instruction-manual.pdf"> */}
-                <img src="./assets/info.png" alt=""></img>
+                <img src="/assets/info.png" alt=""></img>
                 {/* </a> */}
               </div>
             </div>
@@ -44,7 +44,7 @@ class HomePage extends Component {
           <h1>Traffic News</h1>
           <div className="row">
             <div className="news-display first">
-              <img src="./assets/news_image.jpg" alt="defense-group-pic"/>
+              <img src="/assets/news_image.jpg" alt="defense-group-pic"/>
               <p className="date">26.05.2025</p>
               <p className="event">Final Defense</p>
             </div>
