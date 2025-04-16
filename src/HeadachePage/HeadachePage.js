@@ -26,11 +26,11 @@ class HeadachePage extends Component {
                   <LogoMembers />
                   <span>Members</span>
                 </a>
-                <a className="link members" href="https://www.instagram.com/head4che.prod.co/" target="_blank">
+                <a className="link members" href="https://www.instagram.com/head4che.prod.co/" target="_blank" rel="noreferrer noopener">
                   <LogoInsta />
                   <span>Instagram</span>
                 </a>
-                <a className="link members" href="https://discord.gg/PmBhK3khEC" target="_blank">
+                <a className="link members" href="https://discord.gg/PmBhK3khEC" target="_blank" rel="noreferrer noopener">
                   <LogoDiscord />
                   <span>Discord</span>
                 </a>
@@ -38,7 +38,38 @@ class HeadachePage extends Component {
             </div>
           </div>
         </div>
-        <div id="team"></div>
+        <div id="team">
+          <h1>Our Team</h1>
+          <div className="row">
+          <div className="member">
+              <img src="/assets/members/jeanne.png" alt="member"></img>
+              <span className="name">Jeanne Durand</span>
+              <span className="nickname">Camel Executive Officer</span>
+            </div>
+            <div className="member">
+              <img src="/assets/members/arthur.png" alt="member"></img>
+              <span className="name">Arthur Fiolet</span>
+              <span className="nickname">The Kid</span>
+            </div>
+            <div className="member">
+              <img src="/assets/members/adam.png" alt="member"></img>
+              <span className="name">Adam Graziani</span>
+              <span className="nickname">Échelle Graziani</span>
+            </div>
+          </div>
+          <div className="row">
+          <div className="member">
+              <img src="/assets/members/tidiane.png" alt="member"></img>
+              <span className="name">Tidiane Bathily</span>
+              <span className="nickname">titiClicker</span>
+            </div>
+            <div className="member">
+              <img src="/assets/members/valentin.png" alt="member"></img>
+              <span className="name">Valentin Kiep</span>
+              <span className="nickname">Tonton</span>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
