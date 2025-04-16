@@ -107,6 +107,7 @@
 
     .row {
       display: flex;
+      flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
@@ -120,9 +121,11 @@
       padding: 2em;
       width: max-content;
       flex-grow: 1;
+      position: relative;
 
       .row {
         justify-content: flex-start;
+        flex-wrap: wrap;
 
         h2 {
           margin-left: 1em;
@@ -145,13 +148,12 @@
         border-radius: 100%;
         border-width: 0;
         background-color: white;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 1em;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
         color: #2f4c99;
         font-family: "Gill Sans MT";
-        font-size: large;
+        font-size: 50px;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
@@ -175,6 +177,7 @@
 
     .row {
       display: flex;
+      flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
