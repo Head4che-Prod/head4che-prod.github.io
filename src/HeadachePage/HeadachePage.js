@@ -15,11 +15,11 @@ class HeadachePage extends Component {
             <div className="content">
               <h1>Head4che Production Company</h1>
               <div className="row games">
-                <a href="/subway-out/">
+                <a className="game" href="/subway-out/">
                   <img src="/assets/swo-icon.png" alt="" />
                 </a>
-                <img src="/assets/dice-icon.png" alt="" />
-                <img src="/assets/gamepad-icon.png" alt="" />
+                <img className="game" src="/assets/dice-icon.png" alt="" />
+                <img className="game" src="/assets/gamepad-icon.png" alt="" />
                 </div>
               <div className="row links">
                 <a className="link members" href="#team">
