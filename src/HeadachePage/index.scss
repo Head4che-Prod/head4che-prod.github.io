@@ -25,6 +25,7 @@
     .logo {
       height: min-content;
       max-height: 80vh;
+      width: min-content;
     }
 
     .content {
@@ -41,20 +42,19 @@
       }
 
       .games {
-        gap: 1em;
-
-
+        display: flex; /* Add flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center;
+        
         .game {
-          height: 10em;
-
+          width: 30vw;
           img {
             height: 100% !important;
             width: 100% !important;
           }
-
+          
           @media (max-width: 450px) {
-            height: unset;
-            width: 25%;
+            width: 60vw;
           }
         }
       }
@@ -99,7 +99,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap:.5em;
+      gap: 0.5em;
       margin-bottom: 1em;
 
       img {
