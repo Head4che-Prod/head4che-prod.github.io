@@ -52,38 +52,41 @@
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        margin-top: 2em;
 
         .mainDownload {
           width: 80%;
-
-          button {
-            width: 100%;
-            border-width: 0;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            border-radius: 60px;
-            color: #2f4c99;
-            font-family: "Gill Sans MT";
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-
-            span {
-              margin-left: 0.5em;
-            }
-          }
         }
-
+        
         div.instructionManual {
           width: fit-content;
-
+          
           button {
             background-color: transparent;
           }
         }
+      }
+
+      button {
+        width: 100%;
+        border-width: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 60px;
+        color: #2f4c99;
+        font-family: "Gill Sans MT";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+  
+        span {
+          margin-left: 0.5em;
+        }
+      }
+
+      .withTopMargin {
+        margin-top: 1em;
       }
     }
   }

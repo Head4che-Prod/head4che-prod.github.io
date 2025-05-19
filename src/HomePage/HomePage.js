@@ -25,7 +25,7 @@ class HomePage extends Component {
               alt="logo-subwayout"
               src="/assets/subwayout.png"
             />
-            <div className="alldownloads">
+            <div className="alldownloads withTopMargin">
               <div className="mainDownload">
                 <button disabled>
                   <WinLogo height="2em" />
@@ -34,10 +34,11 @@ class HomePage extends Component {
               </div>
               <div className="instructionManual">
                 {/* <a target="_blank" href="/docs/instruction-manual.pdf"> */}
-                <img src="/assets/info.png" alt=""></img>
+                <img src="/assets/info.png" alt="" width={60} height={60}></img>
                 {/* </a> */}
               </div>
             </div>
+            <button disabled className="withTopMargin"><span>Light version</span></button>
           </div>
         </div>
         <div id="news">
