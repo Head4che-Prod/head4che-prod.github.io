@@ -1,0 +1,36 @@
+.swoHeader {
+  font-family: "Arial Black";
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    height: calc(10vh - 2em);
+    background-color: #d6d6d6;
+    position: sticky;
+
+    .logo {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 1em;
+    }
+
+    img {
+      height: calc(10vh - 2em);
+    }
+
+    a {
+      margin-left: 1em;
+      color: black;
+      text-decoration: none;
+      vertical-align: middle;
+    }
+  }
+}
+
+body:has(.swoHeader) {
+  margin: 0;
+}

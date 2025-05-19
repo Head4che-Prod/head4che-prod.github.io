@@ -2,23 +2,13 @@ import React, { Component } from "react";
 import "./index.scss";
 import { ReactComponent as WinLogo } from "./assets/fa-windows.svg";
 import { ReactComponent as PdfIcon } from "./assets/fa-pdf-file.svg";
+import Header from "../SWOHeader/Header";
 
 class HomePage extends Component {
   render() {
     return (
       <div className="homePage">
-        <header>
-          <nav>
-            <div className="logo">
-              <img alt="logo-subwayout" src="/assets/subwayout.png" />
-            </div>
-            <div className="header-links">
-              <a href="#news">News</a>
-              <a href="#documents">Documents</a>
-              <a href="./the-project/">The Project</a>
-            </div>
-          </nav>
-        </header>
+        <Header />
         <div className="download">
           <div className="beautifulBlueBox">
             <img

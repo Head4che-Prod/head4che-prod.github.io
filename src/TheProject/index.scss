@@ -1,3 +1,7 @@
 .ProjectPage {
   
 }
+
+body:has(.ProjectPage) {
+  margin: 0;
+}
