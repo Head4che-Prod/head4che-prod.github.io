@@ -15,6 +15,7 @@ class HomePage extends Component {
             <div className="header-links">
               <a href="#news">News</a>
               <a href="#documents">Documents</a>
+              <a href="./the-project/">The Project</a>
             </div>
           </nav>
         </header>
