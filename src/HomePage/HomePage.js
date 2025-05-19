@@ -46,7 +46,7 @@ class HomePage extends Component {
           <div className="row">
             <div className="news-display first">
               <img src="/assets/news_image.jpg" alt="defense-group-pic"/>
-              <p className="date">26.05.2025</p>
+              <p className="date">27.05.2025</p>
               <p className="event">Final Defense</p>
             </div>
             <div className="news-display instagram">
