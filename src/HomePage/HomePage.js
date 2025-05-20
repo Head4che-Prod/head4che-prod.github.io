@@ -68,7 +68,7 @@ class HomePage extends Component {
                 <PdfIcon />
                 <h2 className="name">Technical report n°1</h2>
               </div>
-              <p className="date">December 2024</p>
+              <p className="date">January 2025</p>
               <a target="_blank" href="/docs/defense-1.pdf">
                 <button>&gt;</button>
               </a>
