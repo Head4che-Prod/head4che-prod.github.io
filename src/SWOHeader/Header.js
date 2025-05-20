@@ -12,9 +12,9 @@ class Header extends Component {
               <a href="/subway-out/"><img alt="logo-subwayout" src="/assets/subwayout.png" /></a>
             </div>
             <div className="header-links">
-              <a href="#news">News</a>
-              <a href="#documents">Documents</a>
-              <a href="./the-project/">The Project</a>
+              <a href="/subway-out/#news">News</a>
+              <a href="/subway-out/#documents">Documents</a>
+              <a href="/subway-out/the-project/">The Project</a>
             </div>
           </nav>
         </header>
