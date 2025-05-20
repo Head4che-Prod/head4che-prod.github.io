@@ -49,11 +49,6 @@ class ProjectPage extends Component {
                 network authority and object synchronization.
               </li>
               <li>
-                3D modeling delays: Creating detailed environments took longer
-                than expected. → Tasks were split among team members and
-                streamlined using efficient tools.
-              </li>
-              <li>
                 Localization: Needed a scalable way to manage multiple
                 languages. → Developed a centralized translation system.
               </li>
