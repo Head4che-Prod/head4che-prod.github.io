@@ -85,6 +85,7 @@ class ProjectPage extends Component {
               : The tool we used to organize ourselves and to communicate in the
               team
             </li>
+            <li>Rider: The C# editor used to code our game</li>
             <li>Paint, Inkscape, Gimp: To design pretty visuals 🎀</li>
             <li>Powerpoint: To present our game at technical defenses</li>
             <li>Figma: The webservice used to design this website</li>
