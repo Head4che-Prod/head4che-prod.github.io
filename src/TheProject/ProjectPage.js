@@ -21,17 +21,48 @@ class ProjectPage extends Component {
         <div className="realization">
           <h2>Realization</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            suscipit a nisi a egestas. Nunc faucibus purus lacus, in tristique
-            sapien scelerisque ac. Duis lobortis rutrum diam, ut commodo magna.
-            Donec quis metus ut ligula blandit porta. Mauris eu justo maximus
-            ante condimentum malesuada. In pharetra tempor metus, ullamcorper
-            placerat dolor bibendum vitae. Nam eu nisi sapien. Morbi lorem
-            ipsum, finibus gravida ultrices quis, eleifend vel lacus.
-            Suspendisse lectus odio, vestibulum et gravida at, rhoncus interdum
-            orci. Donec aliquet blandit dui, eget varius nibh tempus nec.
-            Praesent pretium, lacus a porttitor molestie, ante purus laoreet
-            orci, sit amet pulvinar nibh.
+            <h3>📆 Timeline</h3>
+            <ul>
+              <li>
+                January 2025 (B2): Initial concept, story writing, level design,
+                and implementation of basic mechanics in Unity.
+              </li>
+              <li>
+                March 2025 (B3): Added multiplayer support, created 3D models,
+                developed puzzles, and integrated gameplay elements.
+              </li>
+              <li>
+                May 2025 (B4): Finalized animations, implemented networking with
+                Netcode for GameObjects, added multilingual support, and built
+                the game’s website.
+              </li>
+            </ul>
+            <h3>⚠️ Challenges & Solutions</h3>
+            <ul>
+              <li>
+                Player movement on slopes: The player would slide unnaturally. →
+                Fixed by adjusting Unity's friction and collider settings.
+              </li>
+              <li>
+                Multiplayer sync issues: Difficulties syncing interactive
+                objects. → Resolved using Netcode for GameObjects for proper
+                network authority and object synchronization.
+              </li>
+              <li>
+                3D modeling delays: Creating detailed environments took longer
+                than expected. → Tasks were split among team members and
+                streamlined using efficient tools.
+              </li>
+              <li>
+                Localization: Needed a scalable way to manage multiple
+                languages. → Developed a centralized translation system.
+              </li>
+              <li>
+                Website development: Building a responsive, appealing site in
+                parallel. → Handled with modern web technologies for consistency
+                and performance.
+              </li>
+            </ul>
           </p>
         </div>
         <div className="tools">
