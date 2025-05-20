@@ -11,17 +11,29 @@ class ProjectPage extends Component {
         <div className="history">
           <h2>History</h2>
           <p>
-            After creating the Head4che production company, formed of five
-            first-year students at EPITA, we decided to create a game. As we all
-            loved puzzles and escape-games, we decided to create an innovative
-            videogame: an escape game in the metro, featuring a very realistic
-            experience.
+            The Head4che Production Company is a French video game studio
+            created in 2024. Composed of 5 active members, this studio was born
+            from a shared passion for computer science and puzzles. Specialized
+            in the creation of escape games, the Head4che Production Company
+            offers unique and innovative experiences in the universe of puzzle
+            games. The passion for solving puzzles and the drive to do so as
+            fast as possible, motivates the team to create a video game open to
+            the public, blending the challenge of complex puzzle-solving with
+            the freedom offered by a three-dimensional environment. The way each
+            team contributor collaborates for academic subjects was also
+            important, as the group often gathers to work together. This
+            efficiency for academic classes was thus important because working
+            together created strong relationships and more importantly lasting
+            friendships among the group. Therefore, the Head4che Production
+            Company is a studio where puzzles and complex enigmas are a
+            fundamental part of the team's passion but above all, it is a studio
+            where friendships were made.
           </p>
         </div>
         <div className="realization">
           <h2>Realization</h2>
           <p>
-            <img alt="timeline" src="/assets/Timeline_SubWay_Out.png"/>
+            <img alt="timeline" src="/assets/Timeline_SubWay_Out.png" />
             <h3>⚠️ Challenges & Solutions</h3>
             <ul>
               <li>
@@ -86,7 +98,7 @@ class ProjectPage extends Component {
               team
             </li>
             <li>Rider: The C# editor used to code our game</li>
-            <li>Paint, Inkscape, Gimp: To design pretty visuals 🎀</li>
+            <li>Paint, Inkscape, Gimp, <a rel="noreferrer" target="_blank" href="https://draw.io">draw.io</a>: To design pretty visuals 🎀</li>
             <li>Powerpoint: To present our game at technical defenses</li>
             <li>Figma: The webservice used to design this website</li>
             <li>
@@ -149,7 +161,7 @@ class ProjectPage extends Component {
                     target="_blank"
                     href="https://www.pour-nourrir-demain.fr/le-sucre-daddy-devient-le-sucre-papa"
                   >
-                    Sugar adversiment
+                    Sugar advertisment
                   </a>{" "}
                   – Daddy
                 </li>
