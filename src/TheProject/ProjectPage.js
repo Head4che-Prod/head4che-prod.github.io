@@ -21,22 +21,7 @@ class ProjectPage extends Component {
         <div className="realization">
           <h2>Realization</h2>
           <p>
-            <h3>📆 Timeline</h3>
-            <ul>
-              <li>
-                January 2025 (B2): Initial concept, story writing, level design,
-                and implementation of basic mechanics in Unity.
-              </li>
-              <li>
-                March 2025 (B3): Added multiplayer support, created 3D models,
-                developed puzzles, and integrated gameplay elements.
-              </li>
-              <li>
-                May 2025 (B4): Finalized animations, implemented networking with
-                Netcode for GameObjects, added multilingual support, and built
-                the game’s website.
-              </li>
-            </ul>
+            <img alt="timeline" src="/assets/Timeline_SubWay_Out.png"/>
             <h3>⚠️ Challenges & Solutions</h3>
             <ul>
               <li>
