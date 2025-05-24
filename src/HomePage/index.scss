@@ -1,0 +1,307 @@
+.homePage {
+  font-family: "Arial Black";
+
+  .download {
+    width: 100%;
+    height: 90vh;
+    background-image: url("assets/background-seats.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+
+    div.beautifulBlueBox {
+      border-radius: 20px;
+      padding: 2em;
+      margin-left: 10%;
+      width: 40%;
+      min-width: 10em;
+      background-color: #2f4c99;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      img.logo-swo {
+        width: 100%;
+      }
+
+      div.alldownloads {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+
+        .mainDownload {
+          width: 80%;
+        }
+        
+        div.instructionManual {
+          width: fit-content;
+          
+          button {
+            background-color: transparent;
+          }
+        }
+      }
+
+      button {
+        width: 100%;
+        border-width: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 60px;
+        color: #2f4c99;
+        font-family: "Gill Sans MT";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+  
+        span {
+          margin-left: 0.5em;
+        }
+      }
+
+      .withTopMargin {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  #documents {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(
+      to bottom,
+      #d6d6d6,
+      #d6d6d6 30%,
+      #00a994 30%,
+      #00a994
+    );
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .document {
+      background-color: #ededed;
+      margin: 1em;
+      height: 15em;
+      box-sizing: border-box;
+      padding: 2em;
+      width: max-content;
+      flex-grow: 1;
+      position: relative;
+
+      .row {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        h2 {
+          margin-left: 1em;
+        }
+      }
+
+      .date {
+        text-align: left;
+        color: #6379b2;
+        font-family: "Gill Sans MT";
+        font-size: small;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      button {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border-width: 0;
+        background-color: white;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        color: #2f4c99;
+        font-family: "Gill Sans MT";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        cursor: pointer;
+      }
+
+      button:disabled {
+        background-color: #a5a5a5;
+        color: white;
+        cursor: default;
+      }
+    }
+  }
+
+  #news {
+    height: 100vh;
+    background-color: #2f4c99;
+    padding: 2em;
+    text-align: center;
+    color: white;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 5%;
+      height: 80vh;
+      gap: 5em;
+
+      .first {
+        flex: 2;
+        justify-content: space-evenly;
+
+        img {
+          max-width: 95%;
+          max-height: calc(95% - 5em);
+          border-radius: 2em;
+        }
+
+        p {
+          width: 90%;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-align: start;
+          font-weight: 400;
+          font-size: 30px;
+        }
+
+        .date {
+          color: #2f4c99;
+        }
+      }
+    }
+
+    .news-display {
+      background-color: #6379b2;
+      width: 30%;
+      height: 100%;
+      border-radius: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 1em;
+    }
+
+    .instagram {
+      flex: 1;
+      $instagram-gradient: linear-gradient(
+        45deg,
+        #f09433,
+        #e6683c,
+        #dc2743,
+        #cc2366,
+        #bc1888
+      );
+
+      .instagram-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        min-height: 20em;
+        height: 50%;
+        justify-content: space-evenly;
+        text-align: center;
+
+        .svg-icon {
+          display: inline-flex;
+          color: transparent;
+          width: 100%;
+          height: 100%;
+          background: #b1bcd9;
+          -webkit-mask-image: url("./assets/fa-instagram.svg");
+          mask-image: url("./assets/fa-instagram.svg");
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-size: contain;
+          mask-size: contain;
+          -webkit-mask-position: center;
+          mask-position: center;
+          opacity: 1;
+          transition: 0.3s ease;
+          width: 80%;
+          aspect-ratio: 1/1;
+          height: max-content;
+        }
+
+        .username {
+          font-size: calc((30vw - 4.5rem) / 13);
+          color: #333;
+          text-decoration: none;
+          transition: all 0.3s ease;
+
+          .svg-icon {
+            fill: none; /* Remove the base color */
+            background: $instagram-gradient;
+            -webkit-mask-image: url("./assets/fa-instagram.svg");
+            mask-image: url("./assets/fa-instagram.svg");
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-size: contain;
+            -webkit-mask-position: center;
+            mask-position: center;
+            opacity: 1;
+          }
+        }
+
+        &:hover {
+          .username {
+            background: $instagram-gradient;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+          .svg-icon {
+            fill: none; /* Remove the base color */
+            background: $instagram-gradient;
+            -webkit-mask-image: url("./assets/fa-instagram.svg");
+            mask-image: url("./assets/fa-instagram.svg");
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-size: contain;
+            -webkit-mask-position: center;
+            mask-position: center;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    embed {
+      height: 80vh;
+      aspect-ratio: 4 / 5;
+      scrollbar-width: 0;
+    }
+  }
+}
+
+body:has(.homePage) {
+  margin: 0;
+}
+
+* {
+  transition: 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}
