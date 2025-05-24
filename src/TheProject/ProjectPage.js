@@ -37,25 +37,25 @@ class ProjectPage extends Component {
             <h3>⚠️ Challenges & Solutions</h3>
             <ul>
               <li>
-                Model backface culling issues → Recalculating normals in Blender.
+                🧊 Model backface culling issues → Recalculating normals in Blender.
               </li>
               <li>
-                Texture mismatches → Embedding textures on export.
+                🎨 Texture mismatches → Embedding textures on export.
               </li>
               <li>
-                Animation rigging → Using animations directly in Unity.
+                🚶‍➡️ Animation rigging → Using animations directly in Unity.
               </li>
               <li>
-                Grabbed objects' position synchronization → Running on all computation on the server.
+                🏀 Grabbed objects' position synchronization → Running on all computation on the server.
               </li>
               <li>
-                Necode for GameObject's nested NetworkObject restrictions → Serializing parent NetworkObject in elements.
+                🗃️ Netcode for GameObject's nested NetworkObject restrictions → Serializing parent NetworkObject in elements.
               </li>
               <li>
-                Fast-moving objects clipping → Physics strictness levels specific to each object.
+                🚀 Fast-moving objects clipping → Physics strictness levels specific to each object.
               </li>
               <li>
-                Complicated client connection → Transition to Unity Relay Servers.
+                🛜 Tedious client connection → Transition to Unity Relay Servers.
               </li>
             </ul>
           </p>
