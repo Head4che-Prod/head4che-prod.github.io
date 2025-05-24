@@ -13,13 +13,13 @@ class ProjectPage extends Component {
           <p>
             The Head4che Production Company is a French video game studio
             founded in 2024. Composed of five active members, this studio was
-            born from a shared passion for computer science and puzzles.<br/>
+            born from a shared passion for computer science and puzzles.<br />
             Specialized in the creation of escape games, the Head4che Production
             Company offers unique and innovative experiences in the puzzle game
-            genre.<br/> It is a passion for solving puzzles and the drive to do so as
+            genre.<br /> It is a passion for solving puzzles and the drive to do so as
             fast as possible that motivates the team to create a video game open
             to the public, blending the challenge of complex puzzle-solving with
-            the freedom offered by a three-dimensional environment.<br/> The studio's
+            the freedom offered by a three-dimensional environment.<br /> The studio's
             composition stems from the way each member handles their academic
             work. Even prior to the studio's formation, the group often gathered
             to work together. Specifically, the group used to meet to work
@@ -104,18 +104,63 @@ class ProjectPage extends Component {
               : The tool we used to organize ourselves and to communicate in the
               team
             </li>
-            <li>Rider: The C# editor used to code our game</li>
             <li>
-              Paint, Inkscape, Gimp,{" "}
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.jetbrains.com/rider/"
+              >
+                JetBrains Rider
+              </a>: The C# editor used to code our game</li>
+            <li>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.microsoft.com/en-us/windows/paint"
+              >
+                Paint
+              </a>,{" "}
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://inkscape.org/"
+              >
+                Inkscape
+              </a>,{" "}
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.gimp.org/"
+              >
+                GIMP
+              </a>
+              ,{" "}
               <a rel="noreferrer" target="_blank" href="https://draw.io">
                 draw.io
               </a>
               : To design pretty visuals 🎀
             </li>
-            <li>Powerpoint: To present our game at technical defenses</li>
-            <li>Figma: The webservice used to design this website</li>
             <li>
-              Instagram: The social media we used to show the progress of the
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://powerpoint.cloud.microsoft/"
+              >Powerpoint</a>: To present our game at technical defenses
+            </li>
+
+            <li>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.figma.com/"
+              >
+              Figma</a>: The webservice used to design this website</li>
+            <li>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.instagram.com/head4che.prod.co/"
+              >Instagram</a>: The social media we used to show the progress of the
               game development to our future players
             </li>
           </ul>
