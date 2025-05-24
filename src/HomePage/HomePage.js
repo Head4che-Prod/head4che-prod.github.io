@@ -18,7 +18,7 @@ class HomePage extends Component {
             />
             <div className="alldownloads withTopMargin">
               <div className="mainDownload">
-                <a href="/subwayout_installer-v1.0.0.exe">
+                <a href="/subwayout_installer-v1.0.1.exe">
                   <button>
                     <WinLogo height="2em" />
                     <span>Download Now</span>
