@@ -18,29 +18,42 @@ class HomePage extends Component {
             />
             <div className="alldownloads withTopMargin">
               <div className="mainDownload">
-                <button disabled>
-                  <WinLogo height="2em" />
-                  <span>Download Now</span>
-                </button>
+                <a href="/subwayout_installer-v1.0.0.exe">
+                  <button>
+                    <WinLogo height="2em" />
+                    <span>Download Now</span>
+                  </button>
+                </a>
               </div>
               <div className="instructionManual">
-                {/* <a target="_blank" href="/docs/instruction-manual.pdf"> */}
-                <img src="/assets/info.png" alt="" width={60} height={60}></img>
-                {/* </a> */}
+                <a target="_blank" href="/docs/instruction-manual.pdf">
+                  <img
+                    src="/assets/info.png"
+                    alt=""
+                    width={60}
+                    height={60}
+                  ></img>
+                </a>
               </div>
             </div>
-            <button disabled className="withTopMargin"><span>Light version</span></button>
           </div>
         </div>
         <div className="trailer">
           <h1>Trailer</h1>
-          <iframe src="https://www.youtube.com/embed/CKALwMykcis?si=PGcKPX9ZGiYBIuxq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/CKALwMykcis?si=PGcKPX9ZGiYBIuxq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
         <div id="news">
           <h1>Traffic News</h1>
           <div className="row">
             <div className="news-display first">
-              <img src="/assets/news_image.jpg" alt="defense-group-pic"/>
+              <img src="/assets/news_image.jpg" alt="defense-group-pic" />
               <p className="date">27.05.2025</p>
               <p className="event">Final Defense</p>
             </div>
@@ -51,7 +64,9 @@ class HomePage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="svg-icon"
-                >_</a>
+                >
+                  _
+                </a>
                 <a
                   href="https://www.instagram.com/head4che.prod.co"
                   target="_blank"
@@ -90,10 +105,12 @@ class HomePage extends Component {
             <div className="document">
               <div className="row">
                 <PdfIcon />
-                <h2 className="name">Technical report n°3</h2>
+                <h2 className="name">Project report</h2>
               </div>
               <p className="date">May 2025</p>
-              <button disabled>&gt;</button>
+              <a target="_blank" href="/docs/project-report.pdf">
+                <button>&gt;</button>
+              </a>
             </div>
           </div>
           <div className="row">
