@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.452b93f7.css",
+    "main.css": "/static/css/main.7aef7a04.css",
     "main.js": "/static/js/main.1dc64597.js",
     "static/media/background-seats.png": "/static/media/background-seats.7578d17fc7058516ecde.png",
     "static/media/NeuropolX.otf": "/static/media/NeuropolX.457781a8526b5b55c4a3.otf",
@@ -11,11 +11,11 @@
     "static/media/fa-pdf-file.svg": "/static/media/fa-pdf-file.ea4213bc0616c676f20e06b19c63038d.svg",
     "index.html": "/index.html",
     "static/media/fa-windows.svg": "/static/media/fa-windows.5e397bd9218b8b935972ee8e9a667ca8.svg",
-    "main.452b93f7.css.map": "/static/css/main.452b93f7.css.map",
+    "main.7aef7a04.css.map": "/static/css/main.7aef7a04.css.map",
     "main.1dc64597.js.map": "/static/js/main.1dc64597.js.map"
   },
   "entrypoints": [
-    "static/css/main.452b93f7.css",
+    "static/css/main.7aef7a04.css",
     "static/js/main.1dc64597.js"
   ]
 }
