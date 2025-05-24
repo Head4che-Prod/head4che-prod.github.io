@@ -32,6 +32,10 @@ class HomePage extends Component {
             <button disabled className="withTopMargin"><span>Light version</span></button>
           </div>
         </div>
+        <div className="trailer">
+          <h1>Trailer</h1>
+          <iframe src="https://www.youtube.com/embed/CKALwMykcis?si=PGcKPX9ZGiYBIuxq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         <div id="news">
           <h1>Traffic News</h1>
           <div className="row">

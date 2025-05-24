@@ -12,22 +12,24 @@ class ProjectPage extends Component {
           <h2>History</h2>
           <p>
             The Head4che Production Company is a French video game studio
-            created in 2024. Composed of 5 active members, this studio was born
-            from a shared passion for computer science and puzzles. Specialized
-            in the creation of escape games, the Head4che Production Company
-            offers unique and innovative experiences in the universe of puzzle
-            games. The passion for solving puzzles and the drive to do so as
-            fast as possible, motivates the team to create a video game open to
-            the public, blending the challenge of complex puzzle-solving with
-            the freedom offered by a three-dimensional environment. The way each
-            team contributor collaborates for academic subjects was also
-            important, as the group often gathers to work together. This
-            efficiency for academic classes was thus important because working
-            together created strong relationships and more importantly lasting
-            friendships among the group. Therefore, the Head4che Production
-            Company is a studio where puzzles and complex enigmas are a
-            fundamental part of the team's passion but above all, it is a studio
-            where friendships were made.
+            founded in 2024. Composed of five active members, this studio was
+            born from a shared passion for computer science and puzzles.<br/>
+            Specialized in the creation of escape games, the Head4che Production
+            Company offers unique and innovative experiences in the puzzle game
+            genre.<br/> It is a passion for solving puzzles and the drive to do so as
+            fast as possible that motivates the team to create a video game open
+            to the public, blending the challenge of complex puzzle-solving with
+            the freedom offered by a three-dimensional environment.<br/> The studio's
+            composition stems from the way each member handles their academic
+            work. Even prior to the studio's formation, the group often gathered
+            to work together. Specifically, the group used to meet to work
+            together on OCaml, the very first language studied by each team
+            member. This efficiency for academic classes was thus important
+            because working together created strong relationships and more
+            importantly lasting friendships inside the group. Therefore, the
+            Head4che Production Company is a studio where puzzles and complex
+            reasonings are a fundamental part of the team's passion but above
+            all, it is a studio where friendships have been made.
           </p>
         </div>
         <div className="realization">
@@ -37,22 +39,24 @@ class ProjectPage extends Component {
             <h3>⚠️ Challenges & Solutions</h3>
             <ul>
               <li>
-                🧊 Model backface culling issues → Recalculating normals in Blender.
+                🧊 Model backface culling issues → Recalculating normals in
+                Blender.
               </li>
-              <li>
-                🎨 Texture mismatches → Embedding textures on export.
-              </li>
+              <li>🎨 Texture mismatches → Embedding textures on export.</li>
               <li>
                 🚶‍➡️ Animation rigging → Using animations directly in Unity.
               </li>
               <li>
-                🏀 Grabbed objects' position synchronization → Running on all computation on the server.
+                🏀 Grabbed objects' position synchronization → Running on all
+                computation on the server.
               </li>
               <li>
-                🗃️ Netcode for GameObject's nested NetworkObject restrictions → Serializing parent NetworkObject in elements.
+                🗃️ Netcode for GameObject's nested NetworkObject restrictions →
+                Serializing parent NetworkObject in elements.
               </li>
               <li>
-                🚀 Fast-moving objects clipping → Physics strictness levels specific to each object.
+                🚀 Fast-moving objects clipping → Physics strictness levels
+                specific to each object.
               </li>
               <li>
                 🛜 Tedious client connection → Transition to Unity Relay Servers.
@@ -101,7 +105,13 @@ class ProjectPage extends Component {
               team
             </li>
             <li>Rider: The C# editor used to code our game</li>
-            <li>Paint, Inkscape, Gimp, <a rel="noreferrer" target="_blank" href="https://draw.io">draw.io</a>: To design pretty visuals 🎀</li>
+            <li>
+              Paint, Inkscape, Gimp,{" "}
+              <a rel="noreferrer" target="_blank" href="https://draw.io">
+                draw.io
+              </a>
+              : To design pretty visuals 🎀
+            </li>
             <li>Powerpoint: To present our game at technical defenses</li>
             <li>Figma: The webservice used to design this website</li>
             <li>
