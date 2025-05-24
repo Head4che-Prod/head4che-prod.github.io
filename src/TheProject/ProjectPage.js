@@ -37,22 +37,25 @@ class ProjectPage extends Component {
             <h3>⚠️ Challenges & Solutions</h3>
             <ul>
               <li>
-                Player movement on slopes: The player would slide unnaturally. →
-                Fixed by adjusting Unity's friction and collider settings.
+                Model backface culling issues → Recalculating normals in Blender.
               </li>
               <li>
-                Multiplayer sync issues: Difficulties syncing interactive
-                objects. → Resolved using Netcode for GameObjects for proper
-                network authority and object synchronization.
+                Texture mismatches → Embedding textures on export.
               </li>
               <li>
-                Localization: Needed a scalable way to manage multiple
-                languages. → Developed a centralized translation system.
+                Animation rigging → Using animations directly in Unity.
               </li>
               <li>
-                Website development: Building a responsive, appealing site in
-                parallel. → Handled with modern web technologies for consistency
-                and performance.
+                Grabbed objects' position synchronization → Running on all computation on the server.
+              </li>
+              <li>
+                Necode for GameObject's nested NetworkObject restrictions → Serializing parent NetworkObject in elements.
+              </li>
+              <li>
+                Fast-moving objects clipping → Physics strictness levels specific to each object.
+              </li>
+              <li>
+                Complicated client connection → Transition to Unity Relay Servers.
               </li>
             </ul>
           </p>
@@ -161,9 +164,9 @@ class ProjectPage extends Component {
                     target="_blank"
                     href="https://www.pour-nourrir-demain.fr/le-sucre-daddy-devient-le-sucre-papa"
                   >
-                    Sugar advertisment
+                    Daddy sugar advertisment
                   </a>{" "}
-                  – Daddy
+                  – Cristal Union
                 </li>
               </ul>
             </li>
